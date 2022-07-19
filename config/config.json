@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-fx-basic-crud-using-pn-pjs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spFxBasicCrudUsingPnPjs/SpFxBasicCrudUsingPnPjsWebPart.js",
+          "manifest": "./src/webparts/spFxBasicCrudUsingPnPjs/SpFxBasicCrudUsingPnPjsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpFxBasicCrudUsingPnPjsWebPartStrings": "lib/webparts/spFxBasicCrudUsingPnPjs/loc/{locale}.js"
+  }
+}

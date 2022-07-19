@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-fx-basic-crud-using-pn-pjs-client-side-solution",
+    "id": "6932f224-2d60-4ad0-8971-396e386eeb44",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SPFxBasicCRUDUsingPnPJS description"
+      },
+      "longDescription": {
+        "default": "SPFxBasicCRUDUsingPnPJS description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-fx-basic-crud-using-pn-pjs Feature",
+        "description": "The feature that activates elements of the sp-fx-basic-crud-using-pn-pjs solution.",
+        "id": "7372383c-c667-4c19-be3e-5003c7dfd533",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-fx-basic-crud-using-pn-pjs.sppkg"
+  }
+}
